@@ -94,13 +94,6 @@ const currentProjects = [
 
 const allProjects = [...projects, ...currentProjects];
 
-const supportingExperience = [
-  "Green tech and UX content: Industry writing and interface strategy connecting product education with user experience.",
-  "Research grant support: NSF, DOE, and ECAMS proposal contributions with product strategy, forecasting, and technical documentation.",
-  "What Makes Us Click?: Psychology-driven UI/UX writing that connects behavioral science with interface design.",
-  "Google Analytics and A/B testing: Experiment planning and measurement practices used to guide product iteration."
-];
-
 function projectCard(project) {
   return `
     <a class="project-card" href="#/work/${project.slug}">
@@ -218,20 +211,6 @@ function workPage() {
           </p>
         </div>
         <div class="grid project-grid">${currentProjects.map(projectCard).join("")}</div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">Supporting experience</p>
-            <h2>Additional proof points for your design and product story.</h2>
-          </div>
-          <p>These can become additional case-study sections as you add screenshots, outcomes, and process notes.</p>
-        </div>
-        <div class="grid project-grid">
-          ${supportingExperience.map((item) => `<div class="detail-card"><p>${item}</p></div>`).join("")}
-        </div>
       </div>
     </section>
   `;

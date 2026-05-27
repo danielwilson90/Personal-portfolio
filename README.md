@@ -40,8 +40,6 @@ The Work page also includes two current development projects:
 - Simpoli
 - Ancestreats
 
-The Work page also includes supporting experience cards for green tech writing, research grant support, psychology-driven UX writing, and Google Analytics/A/B testing.
-
 ## Run locally
 
 From this folder:

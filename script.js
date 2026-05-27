@@ -7,7 +7,7 @@ const projects = [
     summary:
       "AI-enhanced forecasting, monitoring, and optimization software for green technology and geospatial product workflows.",
     tags: ["Product design", "AI products", "Forecasting", "A/B testing"],
-    role: "Product Designer, Web/App Designer, and Product Lead",
+    role: "Product Designer, Web/App Designer, and UI/UX Designer",
     timeline: "Startup product development",
     problem:
       "Green technology teams need clearer ways to understand forecasting, monitoring, optimization, and geographic data without being buried in technical complexity.",

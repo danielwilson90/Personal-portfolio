@@ -8,10 +8,12 @@ This is a dependency-free static website designed for GitHub Pages.
 
 - `#/` - Home
 - `#/work` - Concept projects and real project slots
-- `#/work/fintrack-mobile-app` - FinTrack mobile app case study
-- `#/work/bloom-wellness-booking` - Bloom wellness booking case study
-- `#/work/studiocart-ecommerce-redesign` - StudioCart ecommerce case study
-- `#/work/locallink-community-app` - LocalLink community app case study
+- `#/work/soladex` - Soladex real project case study
+- `#/work/synctron-ai` - Synctron.ai real project case study
+- `#/work/fintrack-mobile-app` - Supplemental FinTrack mobile app concept
+- `#/work/bloom-wellness-booking` - Supplemental Bloom wellness booking concept
+- `#/work/studiocart-ecommerce-redesign` - Supplemental StudioCart ecommerce concept
+- `#/work/locallink-community-app` - Supplemental LocalLink community app concept
 - `#/about` - Tech journey, psychology background, AI/product experience, and A/B testing
 - `#/contact` - Contact and focus areas
 
@@ -30,19 +32,19 @@ Daniel is positioned as a Product Designer and Web/App Designer with experience 
 
 ## Project plan
 
-The current site includes four polished concept projects so the portfolio has a complete first pass:
+The current site leads with two real product projects:
+
+- Soladex
+- Synctron.ai
+
+It also includes four polished supplemental concept projects so the portfolio has a complete first pass:
 
 - FinTrack Mobile App
 - Bloom Wellness Booking
 - StudioCart E-commerce Redesign
 - LocalLink Community App
 
-The Work page also includes placeholders for four real project case studies:
-
-- Soladex
-- Synctron.ai
-- Green tech and UX content
-- Research grant support
+The Work page also includes supporting experience cards for green tech writing, research grant support, psychology-driven UX writing, and Google Analytics/A/B testing.
 
 ## Run locally
 

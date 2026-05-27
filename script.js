@@ -1,8 +1,52 @@
 const projects = [
   {
+    slug: "soladex",
+    title: "Soladex",
+    type: "Real project",
+    image: "assets/soladex.svg",
+    summary:
+      "AI-enhanced forecasting, monitoring, and optimization software for green technology and geospatial product workflows.",
+    tags: ["Product design", "AI products", "Forecasting", "A/B testing"],
+    role: "Product Designer, Web/App Designer, and Product Lead",
+    timeline: "Startup product development",
+    problem:
+      "Green technology teams need clearer ways to understand forecasting, monitoring, optimization, and geographic data without being buried in technical complexity.",
+    approach:
+      "I led product development across research, interface design, technical planning, and iteration. The work included intuitive Figma interfaces, product strategy, analytics-informed decisions, financial forecasting, and contributions to NSF, DOE, and ECAMS research grant proposals.",
+    outcome:
+      "Soladex demonstrates my ability to connect product design with technical execution, AI-enhanced forecasting, GIS workflows, and cross-functional startup delivery.",
+    bullets: [
+      "Designed user-centered interfaces for forecasting, monitoring, and optimization workflows.",
+      "Applied A/B testing, analytics, and psychological principles to product strategy.",
+      "Worked across Node.js, React, Java, Python, GIS technologies, research writing, and product planning."
+    ]
+  },
+  {
+    slug: "synctron-ai",
+    title: "Synctron.ai",
+    type: "Real project",
+    image: "assets/synctron.svg",
+    summary:
+      "An AI-enhanced React Flow nodal interface supported by Python libraries for real-time data parsing, API integration, and stock trading analysis.",
+    tags: ["AI interface design", "React Flow", "Python", "LLM logic"],
+    role: "Product Designer, Web/App Designer, and Technical Product Builder",
+    timeline: "Startup product development",
+    problem:
+      "Stock trading analysis can become opaque when data streams, API responses, and AI-generated reasoning are separated across disconnected tools.",
+    approach:
+      "I designed Python libraries for real-time data parsing and API integration while shaping an AI-enhanced nodal interface in React Flow. The product connected custom LLM logic with clearer visual workflows for analyzing trading signals.",
+    outcome:
+      "Synctron.ai shows my ability to design product experiences for complex technical systems, making AI-supported analysis more visual, modular, and usable.",
+    bullets: [
+      "Designed an AI-enhanced nodal interface for stock trading analysis workflows.",
+      "Built Python libraries for real-time parsing and API integration.",
+      "Connected UX decisions with LLM logic, data flow clarity, and iterative product development."
+    ]
+  },
+  {
     slug: "fintrack-mobile-app",
     title: "FinTrack Mobile App",
-    type: "Concept project",
+    type: "Supplemental concept",
     image: "assets/fintrack.svg",
     summary:
       "A personal finance app concept that helps users scan balances, understand spending, and complete transfers with fewer decision points.",
@@ -24,7 +68,7 @@ const projects = [
   {
     slug: "bloom-wellness-booking",
     title: "Bloom Wellness Booking",
-    type: "Concept project",
+    type: "Supplemental concept",
     image: "assets/bloom.svg",
     summary:
       "A responsive booking experience for wellness services, built around clear comparison, calendar selection, and low-friction confirmation.",
@@ -46,7 +90,7 @@ const projects = [
   {
     slug: "studiocart-ecommerce-redesign",
     title: "StudioCart E-commerce Redesign",
-    type: "Concept project",
+    type: "Supplemental concept",
     image: "assets/studiocart.svg",
     summary:
       "A product page and checkout redesign focused on scanability, conversion clarity, and reduced cart hesitation.",
@@ -68,7 +112,7 @@ const projects = [
   {
     slug: "locallink-community-app",
     title: "LocalLink Community App",
-    type: "Concept project",
+    type: "Supplemental concept",
     image: "assets/locallink.svg",
     summary:
       "A local discovery app concept for events, services, and neighborhood resources, designed for quick filtering and repeat use.",
@@ -89,11 +133,11 @@ const projects = [
   }
 ];
 
-const realProjectPlaceholders = [
-  "Soladex: AI-enhanced forecasting, monitoring, and optimization software using Node.js, React, Java, Python, and GIS technologies.",
-  "Synctron.ai: Python libraries for real-time data parsing, API integration, and AI-enhanced React Flow trading analysis.",
+const supportingExperience = [
   "Green tech and UX content: Industry writing and interface strategy connecting product education with user experience.",
-  "Research grant support: NSF, DOE, and ECAMS proposal contributions with product strategy, forecasting, and technical documentation."
+  "Research grant support: NSF, DOE, and ECAMS proposal contributions with product strategy, forecasting, and technical documentation.",
+  "What Makes Us Click?: Psychology-driven UI/UX writing that connects behavioral science with interface design.",
+  "Google Analytics and A/B testing: Experiment planning and measurement practices used to guide product iteration."
 ];
 
 function projectCard(project) {
@@ -156,11 +200,11 @@ function homePage() {
       <div class="container">
         <div class="section-header">
           <div>
-            <p class="eyebrow">Featured concept work</p>
-            <h2>Mock projects built to show product range.</h2>
+            <p class="eyebrow">Featured work</p>
+            <h2>Real product work led by Soladex and Synctron.ai.</h2>
           </div>
           <p>
-            These portfolio-ready concept case studies are designed to sit alongside your four real projects while your live case studies are being shaped.
+            The portfolio now leads with your real AI, product, and web/app design experience, with concept projects kept as supplemental range.
           </p>
         </div>
         <div class="grid project-grid">${projects.map(projectCard).join("")}</div>
@@ -194,7 +238,7 @@ function workPage() {
     <section class="container page-hero">
       <p class="eyebrow">Work</p>
       <h1>Product, web, and app design case studies.</h1>
-      <p class="lead">The current build includes concept projects plus a documented path for your four real projects.</p>
+      <p class="lead">The current build leads with Soladex and Synctron.ai, then includes supplemental concept work to show range.</p>
     </section>
     <section class="section">
       <div class="container">
@@ -205,13 +249,13 @@ function workPage() {
       <div class="container">
         <div class="section-header">
           <div>
-            <p class="eyebrow">Real project slots</p>
-            <h2>Your experience to convert into full case studies.</h2>
+            <p class="eyebrow">Supporting experience</p>
+            <h2>Additional proof points for your design and product story.</h2>
           </div>
-          <p>These are ready to become detailed pages when you add screenshots, outcomes, and process notes.</p>
+          <p>These can become additional case-study sections as you add screenshots, outcomes, and process notes.</p>
         </div>
         <div class="grid project-grid">
-          ${realProjectPlaceholders.map((item) => `<div class="detail-card"><p>${item}</p></div>`).join("")}
+          ${supportingExperience.map((item) => `<div class="detail-card"><p>${item}</p></div>`).join("")}
         </div>
       </div>
     </section>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Synctron.ai product preview</title>
+  <desc id="desc">AI nodal trading analysis interface with connected nodes, data parsing, and LLM logic panels.</desc>
+  <rect width="1200" height="750" fill="#eef3f7"/>
+  <rect x="86" y="74" width="1028" height="602" rx="24" fill="#ffffff" stroke="#ccd8e0" stroke-width="3"/>
+  <text x="145" y="145" fill="#151719" font-family="Arial" font-size="48" font-weight="700">Synctron.ai</text>
+  <text x="145" y="184" fill="#275d8c" font-family="Arial" font-size="20" font-weight="700">AI-enhanced React Flow trading analysis</text>
+  <rect x="145" y="240" width="280" height="110" rx="20" fill="#151719"/>
+  <text x="175" y="304" fill="#ffffff" font-family="Arial" font-size="22" font-weight="700">Market API</text>
+  <rect x="505" y="240" width="280" height="110" rx="20" fill="#0f766e"/>
+  <text x="535" y="304" fill="#ffffff" font-family="Arial" font-size="22" font-weight="700">Python parser</text>
+  <rect x="685" y="430" width="280" height="110" rx="20" fill="#d95f43"/>
+  <text x="715" y="494" fill="#ffffff" font-family="Arial" font-size="22" font-weight="700">LLM logic</text>
+  <rect x="280" y="430" width="280" height="110" rx="20" fill="#f4f0e6"/>
+  <text x="310" y="494" fill="#151719" font-family="Arial" font-size="22" font-weight="700">Signal view</text>
+  <path d="M425 295 H505" stroke="#151719" stroke-width="10" stroke-linecap="round"/>
+  <path d="M645 350 C645 390 720 390 760 430" stroke="#151719" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M685 485 H560" stroke="#151719" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="465" cy="295" r="16" fill="#c58b1a"/>
+  <circle cx="645" cy="350" r="16" fill="#c58b1a"/>
+  <circle cx="622" cy="485" r="16" fill="#c58b1a"/>
+  <rect x="145" y="586" width="520" height="44" rx="16" fill="#151719"/>
+  <text x="176" y="615" fill="#ffffff" font-family="Arial" font-size="18" font-weight="700">UX goal: make data flow and AI reasoning visible</text>
+</svg>

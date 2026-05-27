@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">FinTrack mobile app preview</title>
+  <desc id="desc">A finance app dashboard concept with account cards, spending chart, and transfer controls.</desc>
+  <rect width="1200" height="750" fill="#dfece8"/>
+  <rect x="90" y="70" width="1020" height="610" rx="24" fill="#ffffff" stroke="#cad8d3" stroke-width="3"/>
+  <rect x="170" y="116" width="260" height="518" rx="34" fill="#151719"/>
+  <rect x="190" y="150" width="220" height="450" rx="26" fill="#f7f5ef"/>
+  <text x="218" y="205" fill="#151719" font-family="Arial" font-size="28" font-weight="700">FinTrack</text>
+  <rect x="218" y="235" width="164" height="92" rx="16" fill="#0f766e"/>
+  <text x="238" y="275" fill="#ffffff" font-family="Arial" font-size="20" font-weight="700">$8,420</text>
+  <text x="238" y="303" fill="#d5f2ec" font-family="Arial" font-size="14">Available balance</text>
+  <rect x="218" y="354" width="72" height="62" rx="14" fill="#fff"/>
+  <rect x="310" y="354" width="72" height="62" rx="14" fill="#fff"/>
+  <rect x="218" y="444" width="164" height="14" rx="7" fill="#d9ded8"/>
+  <rect x="218" y="474" width="132" height="14" rx="7" fill="#d9ded8"/>
+  <rect x="218" y="504" width="150" height="14" rx="7" fill="#d9ded8"/>
+  <rect x="510" y="140" width="480" height="120" rx="20" fill="#f4f0e6"/>
+  <rect x="540" y="176" width="250" height="18" rx="9" fill="#151719"/>
+  <rect x="540" y="214" width="370" height="14" rx="7" fill="#cbd5cf"/>
+  <rect x="510" y="302" width="210" height="190" rx="20" fill="#0f766e"/>
+  <rect x="760" y="302" width="230" height="190" rx="20" fill="#d95f43"/>
+  <rect x="540" y="542" width="450" height="52" rx="16" fill="#151719"/>
+  <text x="570" y="576" fill="#ffffff" font-family="Arial" font-size="18" font-weight="700">A/B test: quick actions above balance</text>
+</svg>

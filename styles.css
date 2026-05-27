@@ -348,15 +348,24 @@ h3 {
 }
 
 .project-image {
-  aspect-ratio: 16 / 10;
-  background: #151719;
+  aspect-ratio: 3 / 2;
+  background: #000;
   border-bottom: 1px solid var(--line);
   object-fit: contain;
   width: 100%;
 }
 
+.detail-image {
+  aspect-ratio: 3 / 2;
+  align-items: center;
+  background: #000;
+  display: flex;
+}
+
 .detail-image img {
-  background: #151719;
+  background: #000;
+  height: 100%;
+  object-fit: contain;
   width: 100%;
 }
 

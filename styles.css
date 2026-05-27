@@ -349,9 +349,14 @@ h3 {
 
 .project-image {
   aspect-ratio: 16 / 10;
-  background: #dce8e4;
+  background: #151719;
   border-bottom: 1px solid var(--line);
-  object-fit: cover;
+  object-fit: contain;
+  width: 100%;
+}
+
+.detail-image img {
+  background: #151719;
   width: 100%;
 }
 

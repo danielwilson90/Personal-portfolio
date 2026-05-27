@@ -12,7 +12,7 @@ const projects = [
     problem:
       "Soladex was born from a simple question that every solar panel owner asks: should I sell, store, or use the energy my system generates? With over 25 years of experience in solar installations and a passion for renewable energy, we built the Solar Power Index to finally answer that question. Our vendor-agnostic software combines real-time weather data, local grid conditions, and AI-driven forecasting, Soladex empowers homeowners, installers, and energy providers to get the most out of every ray of sunlight.",
     approach:
-      "I led product development across research, interface design, technical planning, and iteration. The work included intuitive Figma interfaces, product strategy, analytics-informed decisions, financial forecasting, and contributions to NSF, DOE, and ECAMS research grant proposals.",
+      "In collaboration with the CTO I helped develop across research, interface design, technical planning, and iteration. The work included intuitive Figma interfaces, product strategy, analytics-informed decisions, financial forecasting, and contributions to NSF, DOE, and ECAMS research grant proposals.",
     outcome:
       "Soladex demonstrates my ability to connect product design with technical execution, AI-enhanced forecasting, GIS workflows, and cross-functional startup delivery.",
     bullets: [

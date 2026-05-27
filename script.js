@@ -158,7 +158,7 @@ function homePage() {
             <h2>Real product work across Soladex and Synctron.ai.</h2>
           </div>
           <p>
-            These case studies focus on your AI, product, and web/app design experience through real startup product work.
+            These case studies highlight my AI, product, and web/app design experience through real startup product work and personal projects.
           </p>
         </div>
         <div class="grid project-grid">${projects.map(projectCard).join("")}</div>

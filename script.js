@@ -255,7 +255,6 @@ function aboutPage() {
           </p>
         </article>
         <aside class="story-card">
-          <img class="profile-photo" src="assets/profile-pic.jpg" alt="Daniel Wilson portrait">
           <h3>Core strengths</h3>
           <ul class="timeline">
             <li><strong>Product design</strong><span>User flows, wireframes, prototypes, and responsive UI systems.</span></li>
@@ -314,6 +313,7 @@ function projectDetailPage(slug) {
   return `
     <section class="container page-hero detail-hero">
       <div>
+        <a class="back-link" href="#/work" aria-label="Back to Work page">Back to Work</a>
         <p class="eyebrow">${project.type}</p>
         <h1>${project.title}</h1>
         <p class="lead">${project.summary}</p>

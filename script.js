@@ -3,7 +3,7 @@ const projects = [
     slug: "soladex",
     title: "Soladex",
     type: "Real project",
-    image: "assets/soladex.svg",
+    image: "assets/soladex-current-landing-page.jpg",
     summary:
       "AI-enhanced forecasting, monitoring, and optimization software for green technology and geospatial product workflows.",
     tags: ["Product design", "AI products", "Forecasting", "A/B testing"],

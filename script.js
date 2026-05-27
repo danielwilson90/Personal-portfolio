@@ -34,7 +34,7 @@ const projects = [
     problem:
       "Stock trading analysis can become opaque when data streams, API responses, and AI-generated reasoning are separated across disconnected tools.",
     approach:
-      "I designed Python libraries for real-time data parsing and API integration while shaping an AI-enhanced nodal interface in React Flow. The product connected custom LLM logic with clearer visual workflows for analyzing trading signals.",
+      "I helped design Python libraries for real-time data parsing and API integration while shaping an AI-enhanced nodal interface in React Flow. The product connected custom LLM logic with clearer visual workflows for analyzing trading signals.",
     outcome:
       "Synctron.ai shows my ability to design product experiences for complex technical systems, making AI-supported analysis more visual, modular, and usable.",
     bullets: [

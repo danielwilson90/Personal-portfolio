@@ -255,6 +255,7 @@ function aboutPage() {
           </p>
         </article>
         <aside class="story-card">
+          <img class="profile-photo" src="assets/profile-pic.jpg" alt="Daniel Wilson portrait">
           <h3>Core strengths</h3>
           <ul class="timeline">
             <li><strong>Product design</strong><span>User flows, wireframes, prototypes, and responsive UI systems.</span></li>

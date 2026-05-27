@@ -424,6 +424,14 @@ h3 {
   color: var(--muted);
 }
 
+.profile-photo {
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  object-fit: cover;
+  width: 100%;
+}
+
 .timeline {
   display: grid;
   gap: 12px;

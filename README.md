@@ -7,13 +7,9 @@ Product design and web/app design portfolio for Daniel Wilson.
 This is a dependency-free static website designed for GitHub Pages.
 
 - `#/` - Home
-- `#/work` - Concept projects and real project slots
+- `#/work` - Soladex and Synctron.ai project case studies
 - `#/work/soladex` - Soladex real project case study
 - `#/work/synctron-ai` - Synctron.ai real project case study
-- `#/work/fintrack-mobile-app` - Supplemental FinTrack mobile app concept
-- `#/work/bloom-wellness-booking` - Supplemental Bloom wellness booking concept
-- `#/work/studiocart-ecommerce-redesign` - Supplemental StudioCart ecommerce concept
-- `#/work/locallink-community-app` - Supplemental LocalLink community app concept
 - `#/about` - Tech journey, psychology background, AI/product experience, and A/B testing
 - `#/contact` - Contact and focus areas
 
@@ -32,17 +28,10 @@ Daniel is positioned as a Product Designer and Web/App Designer with experience 
 
 ## Project plan
 
-The current site leads with two real product projects:
+The current site includes two real product projects:
 
 - Soladex
 - Synctron.ai
-
-It also includes four polished supplemental concept projects so the portfolio has a complete first pass:
-
-- FinTrack Mobile App
-- Bloom Wellness Booking
-- StudioCart E-commerce Redesign
-- LocalLink Community App
 
 The Work page also includes supporting experience cards for green tech writing, research grant support, psychology-driven UX writing, and Google Analytics/A/B testing.
 

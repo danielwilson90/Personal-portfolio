@@ -42,94 +42,6 @@ const projects = [
       "Built Python libraries for real-time parsing and API integration.",
       "Connected UX decisions with LLM logic, data flow clarity, and iterative product development."
     ]
-  },
-  {
-    slug: "fintrack-mobile-app",
-    title: "FinTrack Mobile App",
-    type: "Supplemental concept",
-    image: "assets/fintrack.svg",
-    summary:
-      "A personal finance app concept that helps users scan balances, understand spending, and complete transfers with fewer decision points.",
-    tags: ["Product design", "Mobile app", "A/B testing", "Accessibility"],
-    role: "Product Designer and Web/App Designer",
-    timeline: "3 week concept sprint",
-    problem:
-      "Finance apps often overload users with dense tables and competing calls to action. The design challenge was to make common money tasks feel faster, clearer, and less stressful.",
-    approach:
-      "I mapped the core flow from login to transfer, designed a calm dashboard hierarchy, and planned A/B tests for quick-action placement, transaction filters, and spending insight labels.",
-    outcome:
-      "The concept presents a cleaner mobile dashboard, clearer money movement flow, and a measurement plan focused on task completion, time on task, and transfer confidence.",
-    bullets: [
-      "Designed dashboard, spending insights, transfer flow, and transaction detail states.",
-      "Included A/B test variants for quick actions above vs. below account cards.",
-      "Prioritized readable contrast, large tap targets, and plain-language financial labels."
-    ]
-  },
-  {
-    slug: "bloom-wellness-booking",
-    title: "Bloom Wellness Booking",
-    type: "Supplemental concept",
-    image: "assets/bloom.svg",
-    summary:
-      "A responsive booking experience for wellness services, built around clear comparison, calendar selection, and low-friction confirmation.",
-    tags: ["Web design", "Booking UX", "Responsive UI", "Research"],
-    role: "Product Designer and Web/App Designer",
-    timeline: "2 week concept sprint",
-    problem:
-      "Service marketplaces can make people compare too many details at once. The goal was to help users move from discovery to a confirmed appointment without losing trust.",
-    approach:
-      "I structured the experience around service cards, provider details, a calendar-first booking flow, and messaging that reduces uncertainty before checkout.",
-    outcome:
-      "The final direction gives users scannable service options, transparent availability, and a confirmation experience designed for confidence.",
-    bullets: [
-      "Designed service discovery, provider profile, booking calendar, and confirmation screens.",
-      "Defined A/B test ideas for service card density and calendar default view.",
-      "Balanced emotional warmth with practical booking clarity."
-    ]
-  },
-  {
-    slug: "studiocart-ecommerce-redesign",
-    title: "StudioCart E-commerce Redesign",
-    type: "Supplemental concept",
-    image: "assets/studiocart.svg",
-    summary:
-      "A product page and checkout redesign focused on scanability, conversion clarity, and reduced cart hesitation.",
-    tags: ["E-commerce", "Conversion UX", "A/B testing", "UI systems"],
-    role: "Product Designer and Web/App Designer",
-    timeline: "2 week concept sprint",
-    problem:
-      "Product pages lose shoppers when details, trust signals, and purchase actions compete for attention. This redesign clarifies the decision path.",
-    approach:
-      "I reorganized product information, emphasized reviews and shipping clarity, and designed a sticky add-to-cart path for mobile and desktop.",
-    outcome:
-      "The concept improves content hierarchy, purchase confidence, and checkout continuity while setting up measurable tests for conversion rate and cart completion.",
-    bullets: [
-      "Designed product detail page, cart drawer, and checkout preview.",
-      "Included A/B tests for sticky purchase actions and review placement.",
-      "Created reusable UI patterns for price, variants, shipping, and proof points."
-    ]
-  },
-  {
-    slug: "locallink-community-app",
-    title: "LocalLink Community App",
-    type: "Supplemental concept",
-    image: "assets/locallink.svg",
-    summary:
-      "A local discovery app concept for events, services, and neighborhood resources, designed for quick filtering and repeat use.",
-    tags: ["Mobile app", "Community UX", "Information architecture", "Prototyping"],
-    role: "Product Designer and Web/App Designer",
-    timeline: "3 week concept sprint",
-    problem:
-      "Local information is often scattered across social feeds, websites, and flyers. The product challenge was to make nearby opportunities easier to find and save.",
-    approach:
-      "I built a simple content model, category filters, saved items, and detail pages that make event and resource discovery feel organized.",
-    outcome:
-      "The concept creates a practical path from browse to save to attend, with room for personalization and community trust signals.",
-    bullets: [
-      "Designed discovery feed, filters, saved items, and event detail screens.",
-      "Mapped user flows for browsing, saving, and sharing local resources.",
-      "Defined success metrics around saved events, return visits, and filter engagement."
-    ]
   }
 ];
 
@@ -201,10 +113,10 @@ function homePage() {
         <div class="section-header">
           <div>
             <p class="eyebrow">Featured work</p>
-            <h2>Real product work led by Soladex and Synctron.ai.</h2>
+            <h2>Real product work across Soladex and Synctron.ai.</h2>
           </div>
           <p>
-            The portfolio now leads with your real AI, product, and web/app design experience, with concept projects kept as supplemental range.
+            These case studies focus on your AI, product, and web/app design experience through real startup product work.
           </p>
         </div>
         <div class="grid project-grid">${projects.map(projectCard).join("")}</div>
@@ -238,7 +150,7 @@ function workPage() {
     <section class="container page-hero">
       <p class="eyebrow">Work</p>
       <h1>Product, web, and app design case studies.</h1>
-      <p class="lead">The current build leads with Soladex and Synctron.ai, then includes supplemental concept work to show range.</p>
+      <p class="lead">The current build focuses on Soladex and Synctron.ai as the core project case studies.</p>
     </section>
     <section class="section">
       <div class="container">

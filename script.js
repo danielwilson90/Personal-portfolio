@@ -131,7 +131,7 @@ function homePage() {
             <h2>Product thinking from discovery through measurement.</h2>
           </div>
           <p>
-            Your positioning blends behavioral science, interface design, full-stack product exposure, analytics, and AI product development.
+            Blending behavioral science, interface design, full-stack product exposure, analytics, and AI product development.
           </p>
         </div>
         <div class="grid process-grid">

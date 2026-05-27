@@ -25,7 +25,7 @@ const projects = [
     slug: "synctron-ai",
     title: "Synctron.ai",
     type: "Real project",
-    image: "assets/synctron.svg",
+    image: "assets/synctron-current-landing-page.jpg",
     summary:
       "An AI-enhanced React Flow nodal interface supported by Python libraries for real-time data parsing, API integration, and stock trading analysis.",
     tags: ["AI interface design", "React Flow", "Python", "LLM logic"],

@@ -45,6 +45,55 @@ const projects = [
   }
 ];
 
+const currentProjects = [
+  {
+    slug: "simpoli",
+    title: "Simpoli",
+    type: "Current Development Project",
+    image: "assets/simpoli-landing-page.jpg",
+    summary:
+      "Predictive intelligence for municipal regulation, helping teams model political uncertainty before committing capital or launching.",
+    tags: ["Product design", "Predictive intelligence", "Policy tech", "Dashboard UX"],
+    role: "Product Designer and Web/App Designer",
+    timeline: "Current development",
+    problem:
+      "Municipal regulation is increasingly unpredictable as cities regulate AI, housing tech, mobility systems, labor practices, and data use with little warning. Existing tools monitor legislation after it is introduced, leaving teams with limited time to adjust strategy.",
+    approach:
+      "Simpoli models legislative behavior as a probabilistic system, generating forward-looking predictions for probability of passage, swing vote identification, amendment risk, and timeline estimation before teams commit resources.",
+    outcome:
+      "The product is being shaped to help technology companies, real estate developers, and regulated industry operators navigate municipal regulation with greater confidence.",
+    bullets: [
+      "Frames municipal legislative risk as a predictive product experience rather than a reactive monitoring workflow.",
+      "Highlights core metrics including prediction accuracy, jurisdiction coverage, legislative actions analyzed, and average time saved.",
+      "Supports strategic planning for market entry, product launches, policy initiatives, and capital allocation."
+    ]
+  },
+  {
+    slug: "ancestreats",
+    title: "Ancestreats",
+    type: "Current Development Project",
+    image: "assets/ancestreats-landing-page.jpg",
+    summary:
+      "A genealogy-informed nutrition product that turns ancestry data into personalized meal plans and ancestral food discovery.",
+    tags: ["Product design", "AI nutrition", "Genealogy", "Personalization"],
+    role: "Product Designer and Web/App Designer",
+    timeline: "Current development",
+    problem:
+      "People interested in ancestry often receive genealogical insights without a practical way to connect them to everyday habits like food, nutrition, and traditional eating patterns.",
+    approach:
+      "Ancestreats lets users upload genealogy reports, explore ancestral foods by country, and chat with an AI nutrition expert about traditional foods, recipes, nutrition, and historical eating patterns.",
+    outcome:
+      "The product is being developed to translate ancestral regions and genetic predispositions into personalized diet recommendations featuring foods indigenous to a user's genealogical regions.",
+    bullets: [
+      "Builds a flow from genealogy report upload to AI analysis to personalized ancestral meal recommendations.",
+      "Includes an AI chat experience for exploring traditional foods, staple ingredients, and health benefits by country.",
+      "Connects cultural food discovery with practical meal planning and personalized nutrition."
+    ]
+  }
+];
+
+const allProjects = [...projects, ...currentProjects];
+
 const supportingExperience = [
   "Green tech and UX content: Industry writing and interface strategy connecting product education with user experience.",
   "Research grant support: NSF, DOE, and ECAMS proposal contributions with product strategy, forecasting, and technical documentation.",
@@ -150,7 +199,7 @@ function workPage() {
     <section class="container page-hero">
       <p class="eyebrow">Work</p>
       <h1>Product, web, and app design case studies.</h1>
-      <p class="lead">The current build focuses on Soladex and Synctron.ai as the core project case studies.</p>
+      <p class="lead">The current build focuses on Soladex and Synctron.ai as core case studies, with current development projects below.</p>
     </section>
     <section class="section">
       <div class="container">
@@ -158,6 +207,20 @@ function workPage() {
       </div>
     </section>
     <section class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Current Development Projects</p>
+            <h2>Active product builds in predictive intelligence and AI personalization.</h2>
+          </div>
+          <p>
+            Simpoli and Ancestreats are current development projects expanding the portfolio into civic intelligence, policy forecasting, genealogy, and AI-guided nutrition.
+          </p>
+        </div>
+        <div class="grid project-grid">${currentProjects.map(projectCard).join("")}</div>
+      </div>
+    </section>
+    <section class="section">
       <div class="container">
         <div class="section-header">
           <div>
@@ -262,7 +325,7 @@ function contactPage() {
 }
 
 function projectDetailPage(slug) {
-  const project = projects.find((item) => item.slug === slug);
+  const project = allProjects.find((item) => item.slug === slug);
 
   if (!project) {
     return notFoundPage();

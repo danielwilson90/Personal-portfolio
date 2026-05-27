@@ -10,6 +10,8 @@ This is a dependency-free static website designed for GitHub Pages.
 - `#/work` - Soladex and Synctron.ai project case studies
 - `#/work/soladex` - Soladex real project case study
 - `#/work/synctron-ai` - Synctron.ai real project case study
+- `#/work/simpoli` - Simpoli current development project
+- `#/work/ancestreats` - Ancestreats current development project
 - `#/about` - Tech journey, psychology background, AI/product experience, and A/B testing
 - `#/contact` - Contact and focus areas
 
@@ -32,6 +34,11 @@ The current site includes two real product projects:
 
 - Soladex
 - Synctron.ai
+
+The Work page also includes two current development projects:
+
+- Simpoli
+- Ancestreats
 
 The Work page also includes supporting experience cards for green tech writing, research grant support, psychology-driven UX writing, and Google Analytics/A/B testing.
 

@@ -146,7 +146,7 @@ function homePage() {
           <div class="metric-row">
             <div class="metric"><strong data-countup data-target="4">0</strong><span>Projects</span></div>
             <div class="metric"><strong data-countup data-target="10">0</strong><span>Systems</span></div>
-            <div class="metric"><strong data-countup data-target="87">0</strong><span>Accuracy</span></div>
+            <div class="metric"><strong data-countup data-target="10000" data-suffix="+">0</strong><span>Hours</span></div>
           </div>
           <div class="flow-card">
             <div class="flow-step"><span>Research</span></div>
@@ -480,9 +480,10 @@ function initCountUp() {
 
   const runCounter = (counter) => {
     const target = Number(counter.dataset.target || "0");
-    const suffix = target === 87 ? "%" : "+";
+    const suffix = counter.dataset.suffix || "+";
+    const formatter = new Intl.NumberFormat("en-US");
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      counter.textContent = `${target}${suffix}`;
+      counter.textContent = `${formatter.format(target)}${suffix}`;
       return;
     }
 
@@ -492,7 +493,7 @@ function initCountUp() {
     const step = (now) => {
       const progress = Math.min((now - start) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      counter.textContent = `${Math.round(target * eased)}${suffix}`;
+      counter.textContent = `${formatter.format(Math.round(target * eased))}${suffix}`;
       if (progress < 1) requestAnimationFrame(step);
     };
 

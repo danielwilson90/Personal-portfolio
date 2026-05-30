@@ -115,7 +115,7 @@ function homePage() {
         <p class="eyebrow">Product Designer & Web/App Designer</p>
         <h1>Designing useful products with human insight and technical depth.</h1>
         <p class="typewriter" aria-label="Animated roles">
-          <span>I build </span><span data-typewriter></span><span class="cursor" aria-hidden="true"></span>
+          <span data-typewriter></span><span class="cursor" aria-hidden="true"></span>
         </p>
         <p class="lead">
           I create user-centered web and app experiences shaped by psychology, product strategy,

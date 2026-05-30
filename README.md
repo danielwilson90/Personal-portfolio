@@ -40,6 +40,21 @@ The Work page also includes two current development projects:
 - Simpoli
 - Ancestreats
 
+## Animation layer
+
+The portfolio uses dependency-free CSS and JavaScript animations:
+
+- Typewriter role text
+- Scroll reveal sections
+- Animated project card hover states
+- Floating hero interface panels
+- Animated hero border
+- Count-up metrics
+- Blinking cursor
+- Route fade transitions
+- Pointer parallax on the hero interface
+- Animated connection lines
+
 ## Run locally
 
 From this folder:

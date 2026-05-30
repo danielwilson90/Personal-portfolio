@@ -96,7 +96,7 @@ const allProjects = [...projects, ...currentProjects];
 
 function projectCard(project) {
   return `
-    <a class="project-card" href="#/work/${project.slug}">
+    <a class="project-card reveal" href="#/work/${project.slug}">
       <img class="project-image" src="${project.image}" alt="${project.title} interface preview">
       <div class="project-body">
         <p class="eyebrow">${project.type}</p>
@@ -114,6 +114,9 @@ function homePage() {
       <div>
         <p class="eyebrow">Product Designer & Web/App Designer</p>
         <h1>Designing useful products with human insight and technical depth.</h1>
+        <p class="typewriter" aria-label="Animated roles">
+          <span>I build </span><span data-typewriter></span><span class="cursor" aria-hidden="true"></span>
+        </p>
         <p class="lead">
           I create user-centered web and app experiences shaped by psychology, product strategy,
           software engineering, AI systems, analytics, and A/B testing.
@@ -123,7 +126,12 @@ function homePage() {
           <a class="button secondary" href="#/about">Read my journey</a>
         </div>
       </div>
-      <div class="hero-panel" aria-label="Portfolio interface preview">
+      <div class="hero-panel animated-border parallax-target" aria-label="Portfolio interface preview">
+        <div class="connection-lines" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <div class="interface-board">
           <div class="screen-card">
             <div class="screen-top">
@@ -136,9 +144,9 @@ function homePage() {
             <div class="bar short"></div>
           </div>
           <div class="metric-row">
-            <div class="metric"><strong>UX</strong><span>Research</span></div>
-            <div class="metric"><strong>A/B</strong><span>Testing</span></div>
-            <div class="metric"><strong>AI</strong><span>Products</span></div>
+            <div class="metric"><strong data-countup data-target="4">0</strong><span>Projects</span></div>
+            <div class="metric"><strong data-countup data-target="10">0</strong><span>Systems</span></div>
+            <div class="metric"><strong data-countup data-target="87">0</strong><span>Accuracy</span></div>
           </div>
           <div class="flow-card">
             <div class="flow-step"><span>Research</span></div>
@@ -152,7 +160,7 @@ function homePage() {
 
     <section class="section alt">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header reveal">
           <div>
             <p class="eyebrow">Featured work</p>
             <h2>Real product work across Soladex and Synctron.ai.</h2>
@@ -167,7 +175,7 @@ function homePage() {
 
     <section class="section">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header reveal">
           <div>
             <p class="eyebrow">Design process</p>
             <h2>Product thinking from discovery through measurement.</h2>
@@ -177,10 +185,10 @@ function homePage() {
           </p>
         </div>
         <div class="grid process-grid">
-          <div class="process-card"><b>01</b><h3>Understand</h3><p>Use psychology, user research, analytics, and product goals to define the real design problem.</p></div>
-          <div class="process-card"><b>02</b><h3>Structure</h3><p>Map user flows, information architecture, wireframes, and interaction states before visual polish.</p></div>
-          <div class="process-card"><b>03</b><h3>Prototype</h3><p>Create responsive UI systems and realistic web/app experiences that can be tested and improved.</p></div>
-          <div class="process-card"><b>04</b><h3>Measure</h3><p>Use A/B testing, task completion, engagement, and conversion signals to guide iteration.</p></div>
+          <div class="process-card reveal"><b>01</b><h3>Understand</h3><p>Use psychology, user research, analytics, and product goals to define the real design problem.</p></div>
+          <div class="process-card reveal"><b>02</b><h3>Structure</h3><p>Map user flows, information architecture, wireframes, and interaction states before visual polish.</p></div>
+          <div class="process-card reveal"><b>03</b><h3>Prototype</h3><p>Create responsive UI systems and realistic web/app experiences that can be tested and improved.</p></div>
+          <div class="process-card reveal"><b>04</b><h3>Measure</h3><p>Use A/B testing, task completion, engagement, and conversion signals to guide iteration.</p></div>
         </div>
       </div>
     </section>
@@ -201,7 +209,7 @@ function workPage() {
     </section>
     <section class="section alt">
       <div class="container">
-        <div class="section-header">
+        <div class="section-header reveal">
           <div>
             <p class="eyebrow">Current Development Projects</p>
             <h2>Active product builds in predictive intelligence and AI personalization.</h2>
@@ -227,7 +235,7 @@ function aboutPage() {
     </section>
     <section class="section">
       <div class="container grid story-grid">
-        <article class="story-card">
+        <article class="story-card reveal">
           <h2>My Journey</h2>
           <p>
             With a B.A. in Psychology from San Francisco State University, I developed a deep understanding of human behavior,
@@ -254,7 +262,7 @@ function aboutPage() {
             science with interface principles, and I was a finalist for the National Science Foundation SBIR Grant.
           </p>
         </article>
-        <aside class="story-card">
+        <aside class="story-card reveal">
           <h3>Core strengths</h3>
           <ul class="timeline">
             <li><strong>Product design</strong><span>User flows, wireframes, prototypes, and responsive UI systems.</span></li>
@@ -276,7 +284,7 @@ function contactPage() {
     </section>
     <section class="section">
       <div class="container contact-layout">
-        <div class="contact-card">
+        <div class="contact-card reveal">
           <h2>Available for product, web, and app design opportunities.</h2>
           <p>
             I am especially interested in AI-enabled products, SaaS tools, analytics-driven interfaces, and experiences where
@@ -288,7 +296,7 @@ function contactPage() {
             <a class="button secondary" href="#/work">View work</a>
           </div>
         </div>
-        <div class="contact-card">
+        <div class="contact-card reveal">
           <h3>Focus areas</h3>
           <div class="tags">
             <span class="tag">Product design</span>
@@ -326,13 +334,13 @@ function projectDetailPage(slug) {
     </section>
     <section class="section">
       <div class="container grid detail-grid">
-        <div class="detail-card"><h3>Role</h3><p>${project.role}</p></div>
-        <div class="detail-card"><h3>Timeline</h3><p>${project.timeline}</p></div>
-        <div class="detail-card"><h3>Focus</h3><p>${project.tags.join(", ")}</p></div>
-        <div class="detail-card wide"><h3>Problem</h3><p>${project.problem}</p></div>
-        <div class="detail-card"><h3>Outcome</h3><p>${project.outcome}</p></div>
-        <div class="detail-card wide"><h3>Approach</h3><p>${project.approach}</p></div>
-        <div class="detail-card">
+        <div class="detail-card reveal"><h3>Role</h3><p>${project.role}</p></div>
+        <div class="detail-card reveal"><h3>Timeline</h3><p>${project.timeline}</p></div>
+        <div class="detail-card reveal"><h3>Focus</h3><p>${project.tags.join(", ")}</p></div>
+        <div class="detail-card wide reveal"><h3>Problem</h3><p>${project.problem}</p></div>
+        <div class="detail-card reveal"><h3>Outcome</h3><p>${project.outcome}</p></div>
+        <div class="detail-card wide reveal"><h3>Approach</h3><p>${project.approach}</p></div>
+        <div class="detail-card reveal">
           <h3>Design decisions</h3>
           <ul class="list">${project.bullets.map((item) => `<li>${item}</li>`).join("")}</ul>
         </div>
@@ -376,14 +384,159 @@ function render() {
   const app = document.querySelector("#app");
   const projectMatch = path.match(/^\/work\/(.+)$/);
 
+  app.classList.remove("route-ready");
   app.innerHTML = projectMatch
     ? projectDetailPage(projectMatch[1])
     : (routes[path] ? routes[path]() : notFoundPage());
 
   updateActiveNav(path);
+  initPageMotion();
+  requestAnimationFrame(() => app.classList.add("route-ready"));
   app.focus({ preventScroll: true });
   window.scrollTo({ top: 0, behavior: "instant" });
 }
 
 window.addEventListener("hashchange", render);
 window.addEventListener("DOMContentLoaded", render);
+
+const typewriterWords = [
+  "Product Designer",
+  "Web/App Designer",
+  "AI Product Builder",
+  "Full-Stack Engineer"
+];
+
+let typewriterTimer;
+
+function initTypewriter() {
+  const target = document.querySelector("[data-typewriter]");
+  if (!target || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    if (target) target.textContent = typewriterWords[0];
+    return;
+  }
+
+  clearTimeout(typewriterTimer);
+  let wordIndex = 0;
+  let charIndex = 0;
+  let deleting = false;
+
+  const tick = () => {
+    const word = typewriterWords[wordIndex];
+    target.textContent = word.slice(0, charIndex);
+
+    if (!deleting && charIndex < word.length) {
+      charIndex += 1;
+      typewriterTimer = setTimeout(tick, 72);
+      return;
+    }
+
+    if (!deleting) {
+      deleting = true;
+      typewriterTimer = setTimeout(tick, 1100);
+      return;
+    }
+
+    if (charIndex > 0) {
+      charIndex -= 1;
+      typewriterTimer = setTimeout(tick, 42);
+      return;
+    }
+
+    deleting = false;
+    wordIndex = (wordIndex + 1) % typewriterWords.length;
+    typewriterTimer = setTimeout(tick, 220);
+  };
+
+  tick();
+}
+
+function initScrollReveal() {
+  const elements = document.querySelectorAll(".reveal");
+  if (!elements.length) return;
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
+    elements.forEach((element) => element.classList.add("is-visible"));
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.16 });
+
+  elements.forEach((element, index) => {
+    element.style.setProperty("--reveal-delay", `${Math.min(index * 60, 240)}ms`);
+    observer.observe(element);
+  });
+}
+
+function initCountUp() {
+  const counters = document.querySelectorAll("[data-countup]");
+  if (!counters.length) return;
+
+  const runCounter = (counter) => {
+    const target = Number(counter.dataset.target || "0");
+    const suffix = target === 87 ? "%" : "+";
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      counter.textContent = `${target}${suffix}`;
+      return;
+    }
+
+    const start = performance.now();
+    const duration = 1200;
+
+    const step = (now) => {
+      const progress = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      counter.textContent = `${Math.round(target * eased)}${suffix}`;
+      if (progress < 1) requestAnimationFrame(step);
+    };
+
+    requestAnimationFrame(step);
+  };
+
+  if (!("IntersectionObserver" in window)) {
+    counters.forEach(runCounter);
+    return;
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        runCounter(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.6 });
+
+  counters.forEach((counter) => observer.observe(counter));
+}
+
+function initParallax() {
+  const panel = document.querySelector(".parallax-target");
+  if (!panel || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+  panel.addEventListener("pointermove", (event) => {
+    const rect = panel.getBoundingClientRect();
+    const x = ((event.clientX - rect.left) / rect.width - 0.5) * 10;
+    const y = ((event.clientY - rect.top) / rect.height - 0.5) * -10;
+    panel.style.setProperty("--tilt-x", `${y}deg`);
+    panel.style.setProperty("--tilt-y", `${x}deg`);
+  });
+
+  panel.addEventListener("pointerleave", () => {
+    panel.style.setProperty("--tilt-x", "0deg");
+    panel.style.setProperty("--tilt-y", "0deg");
+  });
+}
+
+function initPageMotion() {
+  initTypewriter();
+  initScrollReveal();
+  initCountUp();
+  initParallax();
+}

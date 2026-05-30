@@ -284,6 +284,7 @@ function contactPage() {
           </p>
           <div class="actions">
             <a class="button primary" href="mailto:danielawilson90@gmail.com">Email Daniel</a>
+            <a class="button secondary" href="tel:+14153425232">(415) 342-5232</a>
             <a class="button secondary" href="#/work">View work</a>
           </div>
         </div>

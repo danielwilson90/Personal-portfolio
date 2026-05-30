@@ -113,7 +113,7 @@ function homePage() {
     <section class="container hero">
       <div>
         <p class="eyebrow">Ai Web/APP Designer & SWE</p>
-        <h1>Designing useful products with human insight and technical depth.</h1>
+        <h1>Designing intuitive products with human insight and technical depth.</h1>
         <p class="typewriter" aria-label="Animated roles">
           <span data-typewriter></span><span class="cursor" aria-hidden="true"></span>
         </p>

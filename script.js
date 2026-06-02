@@ -10,7 +10,7 @@ const projects = [
     role: "Product Designer, Web/App Designer, and UI/UX Designer",
     timeline: "Startup product development",
     problem:
-      "Soladex was born from a simple question that every solar panel owner asks: should I sell, store, or use the energy my system generates? With over 25 years of experience in solar installations and a passion for renewable energy, we built the Solar Power Index to finally answer that question. Our vendor-agnostic software combines real-time weather data, local grid conditions, and AI-driven forecasting, Soladex empowers homeowners, installers, and energy providers to get the most out of every ray of sunlight.",
+      "Soladex was born from a simple question many solar owners ask: when should i sell, use or store my energy my system generates? With over 25 years of experience in solar installations and a passion for renewable energy, we built the Solar Power Index to finally answer that question. Our vendor-agnostic software combines real-time weather data, local grid conditions, and AI-driven forecasting, Soladex empowers homeowners, installers, and energy providers to get the most out of every ray of sunlight.",
     approach:
       "I co-led product development across research, interface design, technical planning, and iterative implementation. My contributions included designing intuitive user experiences in Figma, developing web applications, managing client-side and API integrations, overseeing server infrastructure and system management, shaping product strategy, leveraging analytics-driven decision-making, conducting financial forecasting, supporting machine learning database development, and contributing to research grant proposals submitted to the NSF, DOE, and ECAMS.",
     outcome:
